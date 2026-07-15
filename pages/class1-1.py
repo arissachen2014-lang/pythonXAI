@@ -41,3 +41,27 @@ name = "apple"
 age = 18
 print(f"Hello, my name is {name}, I'm {age} years old.")  # f-string
 # 可以將變數或其他型態的資料放到f字串裡面的{}，這樣就可以在字串中顯示
+print(len("apple")) #len()是一個函式，可以計算字串的長度
+print(len("，")) #len()是一個函式，可以計算字串的長度
+#type() #可以查看變數的型態
+print(type(1)) #<class"int">
+print(1.0) #<class'float'>
+print(type("apple")) #<class'str'>
+print(type(True)) #<class'bool'>
+
+#型態轉換
+print(int(1.0)) #float轉int
+print(float(1)) #int轉float
+print(str(1)) #int轉str
+print(bool(1)) #int轉bool
+print(int(1.234)) #float轉int
+print(float("1.234")) #str轉float
+print(str(1.234)) #float轉str
+print(bool(1.234)) #float轉bool
+#print(int("hello")) #這行會報錯，因為字串裡面如果有非數字的字元，無法轉換成數字
+#請使用者輸入半徑，計算圓面積
+r=float(input("請輸入半徑:"))
+print(f"圓面積為:{3.14*r**2}")
+r2=float(input("請輸入國文期中成績"))
+r1=float(input("請輸入國文期末成績"))
+print(f"平均為:{(r2+r1)/2}") 
