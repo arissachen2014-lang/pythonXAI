@@ -47,5 +47,3 @@ print(L)
 L=[1,3,2,4,5]
 L.sort() #排序
 print(L)
-
-#list
